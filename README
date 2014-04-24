@@ -1,4 +1,4 @@
-# Python Extended VLFeat library
+             Python Extended VLFeat library
 
 This is an extended version of the VLFeat library by Andrea Vedaldi
 and Brian Fulkerson. The aim of this version is, to create an
@@ -10,13 +10,14 @@ easy-to-use SCons build system.
 
 The python interface is __incomplete__.
 
-## Building
+                     Building
 
 Just go to the project root and call `scons --with-python --with-tests` to
-build the entire thing.
+build the entire project.
 
 
-## The original documentation (ignore info on compiling and installing):
+The original documentation (ignore info on compiling and installing):
+
 
                      VisionLab Features Library
                   Andrea Vedaldi and Brian Fulkerson

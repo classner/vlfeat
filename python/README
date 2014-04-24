@@ -21,12 +21,8 @@ DESCRIPTION
   
    
 COMPILING
-  The following instructions are specific for Ubuntu but it should be similar on 
-  other LINUX distributions and probably on MAC OS.
-  The c++ wrappers need boost python to be installed
-  > sudo apt-get install boost-python1.35-dev
-  > cd vlfeat && make
-  This should generate a dynamic library file _vlfeat.so in the directory vlfeat/ 
+  Run `scons --with-python` in the project root.
+  This should generate a dynamic library file _vlfeat.{so|.pyd} in the directory python/vlfeat/
 
 TESTING
   To run the python tests, you need to have numpy, pylab and PIL installed.
