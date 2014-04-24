@@ -1,3 +1,23 @@
+# Python Extended VLFeat library
+
+This is an extended version of the VLFeat library by Andrea Vedaldi
+and Brian Fulkerson. The aim of this version is, to create an
+easy to build, platform independent python access to the library.
+
+It builds on Andreas Muellers work from https://github.com/amueller/vlfeat ,
+however, includes bugfixes, compatility changes for C++ 11 and an 
+easy-to-use SCons build system.
+
+The python interface is __incomplete__.
+
+## Building
+
+Just go to the project root and call `scons --with-python --with-tests` to
+build the entire thing.
+
+
+## The original documentation (ignore info on compiling and installing):
+
                      VisionLab Features Library
                   Andrea Vedaldi and Brian Fulkerson
 

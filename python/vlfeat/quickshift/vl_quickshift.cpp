@@ -8,7 +8,7 @@
 #include "vl_quickshift.h"
 
 VlQS* vl_quickshift_new_python(PyArrayObject& image, int height, int width, int channels){
-		vl_quickshift_new((vl_qs_type*)image.data,height,width,channels);	
+		return vl_quickshift_new((vl_qs_type*)image.data,height,width,channels);	
 }
 
 PyObject * vl_quickshift_get_parents_python(VlQS const *q){

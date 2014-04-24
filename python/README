@@ -1,6 +1,7 @@
                                  VLFeat Python extensions
 		       Mikael Rousson (mikael@polarrose.com)
 		Quickshift functions: Andreas Mueller (amueller@ais.uni-bonn.de)
+ SCons build script: Christoph Lassner (christoph.lassner@informatik.uni-augsburg.de)
 
 DESCRIPTION
   C++ python wrappers of a subset of VLFeat (http://www.vlfeat.org). 

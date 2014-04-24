@@ -2,6 +2,7 @@
  ** description: MEX hierarchical ikmeans.
  ** author:      Brian Fulkerson
  ** author:      Mikael Rousson (Python wrapping)
+ ** author:      Christoph Lassner (C++11 compatibility)
  **
  **/
 
@@ -94,7 +95,7 @@ hikm_to_python(VlHIKMTree * tree)
 /** ------------------------------------------------------------------
  ** @internal
  **/
-tuple vl_hikmeans_python(
+boost::python::tuple vl_hikmeans_python(
 		PyArrayObject & data,
 		int K,
 		int nleaves,
@@ -169,7 +170,7 @@ tuple vl_hikmeans_python(
 
 	object out_tree = hikm_to_python(tree);
 	object agn_obj = object(handle<> ((PyObject*) out_asgn));
-	return make_tuple(out_tree, agn_obj);
+	return boost::python::make_tuple(out_tree, agn_obj);
 }
 
 
