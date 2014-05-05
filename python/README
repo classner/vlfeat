@@ -3,6 +3,12 @@
 		Quickshift functions: Andreas Mueller (amueller@ais.uni-bonn.de)
  Bugfixes, C++11, SCons: Christoph Lassner (christoph.lassner@informatik.uni-augsburg.de)
 
+WARNING
+
+From what I noticed, the MSER visualization is buggy (can't speak
+for the extraction though).
+ 
+ 
 DESCRIPTION
   C++ python wrappers of a subset of VLFeat (http://www.vlfeat.org). 
   
